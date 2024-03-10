@@ -3,7 +3,7 @@
     "@babel/code-frame": {
       "globals": {
         "console.warn": false,
-        "process.emitWarning": true
+        "process.emitWarning": false
       },
       "packages": {
         "lavamoat>@babel/highlight": true
