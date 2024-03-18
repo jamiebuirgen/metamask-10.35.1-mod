@@ -2,7 +2,7 @@
   "resources": {
     "@babel/code-frame": {
       "globals": {
-        "console.warn": true,
+        "console.warn": false,
         "process.emitWarning": false
       },
       "packages": {
