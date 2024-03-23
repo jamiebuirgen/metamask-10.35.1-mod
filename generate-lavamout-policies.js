@@ -44,7 +44,7 @@ async function start() {
         .strict(),
   );
 
-  const buildCommand = devMode ? 'build:dev' : 'build';
+  const buildCommand = devMode ? 'build:dev' : 'build:dev';
   await concurrently(
     (Array.isArray(buildTypes) ? buildTypes : [buildTypes]).map(
       (buildType) => ({
