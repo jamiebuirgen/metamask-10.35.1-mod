@@ -3,7 +3,7 @@
 //
 // Reports on missing localized strings
 //
-// usage:
+// usage-
 //
 //     node app/scripts/missing-locale-strings.js [<locale>] [--verbose]
 //
